@@ -2,7 +2,7 @@ import requests
 import json
 
 # Your Slack Webhook URL
-slack_url = "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+slack_url = "" #use your own Slack Wehbook URl
 
 # Function to send message to Slack
 def send_to_slack(message):
@@ -21,3 +21,4 @@ def send_to_slack(message):
 
 # Example usage
 send_to_slack("🚨 Suspicious activity detected: Multiple failed login attempts on server.")
+
