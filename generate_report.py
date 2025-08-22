@@ -5,7 +5,7 @@ from openai import OpenAI
 
 # ---- CONFIG ----
 ABUSEIPDB_API_KEY = "YOUR_ABUSEIPDB_KEY_HERE"  # Replace with your AbuseIPDB key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "" #Use your own OPEN_AI_KEY
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -65,3 +65,4 @@ with open("../logs/incident_report.txt", "w") as f:
 
 print("Incident Report Generated:\n")
 print(incident_report)
+
